@@ -1,0 +1,32 @@
+.title > .letter {
+    transition: transform 950ms ease;
+}
+.title:hover > .letter {transition-duration: 800ms;}
+.title:hover ~ * {opacity: 0.1;}
+
+/* .title:hover > .letter:nth-child(1) {transform: translate(-30%, -20%) rotate(-8deg);} */
+/* .title:hover > .letter:nth-child(2) {transform: translate(-20%, 27%) rotate(10deg);} */
+/* .title:hover > .letter:nth-child(3) {transform: translate(0%, 10%) rotate(-13deg);} */
+/* .title:hover > .letter:nth-child(4) {transform: translate(15%, -15%) rotate(9deg);} */
+/* .title:hover > .letter:nth-child(5) {transform: translate(28%, 23%) rotate(18deg);} */
+/* .title:hover > .letter:nth-child(6) {transform: translate(25%, -10%) rotate(-20deg);} */
+/* .title:hover > .letter:nth-child(7) {transform: translate(30%, 32%) rotate(22deg);} */
+.title:hover > .letter:nth-child(8) {transform: translate(15%, 22%) rotate(-22deg);}
+.title:hover > .letter:nth-child(9) {transform: translate(7%, 4%) rotate(13deg);}
+.title:hover > .letter:nth-child(10) {transform: translate(15%, 7%) rotate(9deg);}
+.title:hover > .letter:nth-child(11) {transform: translate(7%, 18%) rotate(-17deg);}
+.title:hover > .letter:nth-child(15) {transform: translate(13%, 15%) rotate(19deg);}
+.title:hover > .letter:nth-child(16) {transform: translate(6%, -25%) rotate(-15deg);}
+.title:hover > .letter:nth-child(17) {transform: translate(10%, 13%) rotate(9deg);}
+.title:hover > .letter:nth-child(18) {transform: translate(11%, 12%) rotate(-18deg);}
+.title:hover > .letter:nth-child(19) {transform: translate(17%, -10%) rotate(19deg);}
+.title:hover > .letter:nth-child(20) {transform: translate(11%, 14%) rotate(-13deg);}
+
+
+.title:hover > .letter:nth-child(1) {transform: translate(-62%, -15%) rotate(-8deg);}
+.title:hover > .letter:nth-child(2) {transform: translate(-42%, 17%) rotate(10deg);}
+.title:hover > .letter:nth-child(3) {transform: translate(-4%, 12%) rotate(-13deg);}
+.title:hover > .letter:nth-child(4) {transform: translate(17%, -17%) rotate(9deg);}
+.title:hover > .letter:nth-child(5) {transform: translate(40%, 10%) rotate(18deg);}
+.title:hover > .letter:nth-child(6) {transform: translate(38%, -2%) rotate(-20deg);}
+.title:hover > .letter:nth-child(7) {transform: translate(50%, 17%) rotate(22deg);}

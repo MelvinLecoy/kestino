@@ -1,0 +1,23 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+@import "./kesutils/utils.css";
+
+:root {
+    --purple: rgb(123, 31, 162);
+    --violet: rgb(103, 58, 183);
+    --pink: rgb(244, 143, 177);
+    /* MenuSlider for Main */
+    --g1: rgba(80, 145, 116, 0.9);
+    --g4: rgba(101, 189, 123, 0.9);
+    --g2: rgb(141, 255, 168);
+    --g3: rgb(238, 254, 62);
+}
+
+@layer utilities {
+    .scrollBar {@apply scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-mainOran/80}
+    .Cinputform {
+        @apply bg-slate-400/10 text-white placeholder-gray-500 bb1 border-[#242424] focus:border-mainOran/40
+                outline-none transition-all brounded2 t14 640:t16 px15 py11 1024:px16 1024:py12
+   }
+}

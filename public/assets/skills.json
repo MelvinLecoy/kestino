@@ -1,0 +1,214 @@
+{
+    "languages": [
+        [
+            {
+                "tool": "Python",
+                "level": 92
+            },
+            {
+                "tool": "C++/C",
+                "level": 87
+            },
+            {
+                "tool": "Java",
+                "level": 65
+            }
+        ],
+        [
+            {
+                "tool": "Javascript",
+                "level": 82
+            },
+            {
+                "tool": "Typecript",
+                "level": 79
+            }
+        ],
+        [
+            {
+                "tool": "Assembly",
+                "level": 74
+            }
+        ]
+    ],
+    "frontend": [
+        [
+            {
+                "tool": "HTML",
+                "level": 89
+            },
+            {
+                "tool": "Pug",
+                "level": 84
+            }
+        ],
+        [
+            {
+                "tool": "CSS",
+                "level": 82
+            },
+            {
+                "tool": "Tailwind CSS",
+                "level": 91
+            },
+            {
+                "tool": "Sass",
+                "level": 77
+            }
+        ],
+        [
+            {
+                "tool": "React",
+                "level": 82
+            },
+            {
+                "tool": "Next.js",
+                "level": 78
+            },
+            {
+                "tool": "Redux",
+                "level": 72
+            },
+            {
+                "tool": "Three.js",
+                "level": 75
+            }
+        ],
+        [
+            {
+                "tool": "Svelte",
+                "level": 72
+            }
+        ],
+        [
+            {
+                "tool": "React Native",
+                "level": 70
+            }
+        ]
+    ],
+    "backend": [
+        [
+            {
+                "tool": "Flask",
+                "level": 87
+            },
+            {
+                "tool": "Django",
+                "level": 80
+            }
+        ],
+        [
+            {
+                "tool": "Node.js",
+                "level": 77
+            },
+            {
+                "tool": "Express.js",
+                "level": 75
+            }
+        ],
+        [
+            {
+                "tool": "MySQL, PostgreSQL, Oracle",
+                "level": 87
+            },
+            {
+                "tool": "Firebase",
+                "level": 81
+            },
+            {
+                "tool": "MongoDB",
+                "level": 75
+            },
+            {
+                "tool": "Redis",
+                "level": 75
+            }
+        ],
+        [
+            {
+                "tool": "GraphQL",
+                "level": 74
+            }
+        ]
+    ],
+    "misc": [
+        [
+            {
+                "tool": "Git",
+                "level": 83
+            },
+            {
+                "tool": "Webpack",
+                "level": 78
+            },
+            {
+                "tool": "Shell Scripting (Bash)",
+                "level": 73
+            },
+            {
+                "tool": "Markdown",
+                "level": 85
+            }
+        ],
+        [
+            {
+                "tool": "AWS",
+                "level": 81
+            }
+        ],
+        [
+            {
+                "tool": "Docker",
+                "level": 75
+            }
+        ],
+        [
+            {
+                "tool": "VSCode",
+                "level": 90
+            },
+            {
+                "tool": "Sanity.io (CMS)",
+                "level": 82
+            },
+            {
+                "tool": "Figma",
+                "level": 72
+            },
+            {
+                "tool": "Notion",
+                "level": 92
+            }
+        ],
+        [
+            {
+                "tool": "R",
+                "level": 86
+            },
+            {
+                "tool": "LaTeX",
+                "level": 84
+            },
+            {
+                "tool": "MATLAB",
+                "level": 73
+            }
+        ]
+    ],
+    "links": {
+        "languages": [
+
+        ],
+        "frontend": [
+
+        ],
+        "backend": [
+
+        ],
+        "misc": [
+
+        ]
+    }
+}

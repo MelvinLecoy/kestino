@@ -1,0 +1,26 @@
+/* :root {
+    --g1: rgba(80, 145, 116, 0.9);
+    --g4: rgba(101, 189, 123, 0.9);
+    --g2: rgb(141, 255, 168);
+    --g3: rgb(238, 254, 62);
+} */
+div#slider a:before {
+    content: "";
+    height: 100%;   /* cover entire row */
+    width: 0%;
+    position: absolute;   /* sliding color to be abso */
+    top: 0;
+}
+div#slider a:hover:before {
+    width: 100%;   /* sliding color till end */
+    transition: width 600ms ease;
+}
+
+div#topSlider a:before {
+    left: 0px;
+    background: linear-gradient(to right, transparent, var(--g1), var(--g4), var(--g2), var(--trans), var(--g3));
+}
+div#botSlider a:before {
+    right: 0px;
+    background: linear-gradient(to left, transparent, var(--g1), var(--g4), var(--g2), var(--trans), var(--g3));
+}
